@@ -14,3 +14,5 @@ def percentatge2():
   preuFinal=(-100*fi)/(percentatge-100)
 
   print("El preu que hauras de mostrar es: " + str(preuFinal))
+
+percentatge2()
