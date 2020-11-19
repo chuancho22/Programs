@@ -1,0 +1,16 @@
+def percentatge():
+  fi = eval(input("Donam el valor final que vols aconseguir: "))
+  base = eval(input("Quin valor vols que vegi la gent? "))
+  percentatge = 100-(fi*100)/base
+  print("El percentatge del descompte haurà de ser: " + str(percentatge) + "%")
+
+
+
+percentatge()
+
+def percentatge2():
+  fi = int(input("Donam el valor final que vols aconseguir: "))
+  percentatge = eval(input("Quin descompte voldras aplicar? (nomes valor numeric) "))
+  preuFinal=(-100*fi)/(percentatge-100)
+
+  print("El preu que hauras de mostrar es: " + str(preuFinal))
